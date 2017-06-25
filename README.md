@@ -2,7 +2,7 @@
 Source code for a bot I coded in JavaScript.
 
 
-This is practically  template for a simple bot to use with some features:
+This is practically a template for a simple bot to use with some features:
 
 Features
 -------------
