@@ -19,7 +19,7 @@ Installation Steps
 --------------------
 1. Install node.js from: www.nodejs.org
 2. Install discord.js by typing to a console "npm install --save discord.js"
-3. Add the token for your bot into the code. Edit the other lines to fit your server, or bot name.
+3. Add the token for your bot into the code. Edit the other lines to fit your server, or bot name. MAKE SURE TO EDIT WELCOME MESSAGES, AND EMBEDS!
 
 
 
