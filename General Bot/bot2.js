@@ -22,7 +22,7 @@ bot.on("ready", function() {
 });
 
 bot.on("guildMemberAdd", function(member) {
-   member.guild.channels.find("name", "welcome").sendMessage(member.toString() + "Welcome to Background Gamers!");
+   member.guild.channels.find("name", "welcome").sendMessage(member.toString() + "Welcome to EDIT THE CODE - LINE 25!");
 
    member.addRole(member.guild.roles.find("name", "Verified"));
 
@@ -37,7 +37,7 @@ bot.on("message", function(message) {
 
     switch (args[0].toLowerCase()) {
         case "info":
-            message.channel.sendMessage("This is the General Bot, created by Eqouy");
+            message.channel.sendMessage("This is the General Bot");
             break;
             case "commands":
                 message.channel.sendMessage("!ping, !info, !8ball [question], !noticeme, !removerole [role], !deleterole [role], !embed [message]");
@@ -51,17 +51,14 @@ bot.on("message", function(message) {
             break;
         case "embed":
             var embed = new Discord.RichEmbed()
-                .addField("ASHTON IS GAY", "Steam Account: Werner", true)
+                .addField("EDIT THE CODE - LINE 54 ", true)
                 .setColor(0x00FFFF)
-                .setFooter("Messages Controlled by: Eqouy")
+                .setFooter("Messages Controlled by: EDIT THE CODE - LINE 56")
                 .setThumbnail(message.author.avatarURL)
             message.channel.sendEmbed(embed);
             break;
         case "noticeme":
             message.channel.sendMessage(message.author.toString() + " What's Up!");
-            break;
-        case "deleterole":
-            message.guild.roles("name", "Peasants").delete();
             break;
           }
 
