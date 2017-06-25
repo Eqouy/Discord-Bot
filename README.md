@@ -6,10 +6,13 @@ This is practically a template for a simple bot to use with some features:
 
 Features
 -------------
-1. !hello - replies with "Hello there, (username)
-2. !sysinfo - replies with the name of the bot
-3. !say (message) - replies with whatever you wanted to say 
-4. !delete (not working currently) - would delete a certain amount of messages if it currently worked
+1. !commands - lists commands
+2. !ping - replies with pong
+3. !8ball [question] - you ask a question and the bot selects a random answer, then it replies with the answer
+4. !noticeme - replies to you 
+5. !removerole [role] - removes a specific role (needs administrator access)
+6. !deleterole - deletes a role
+7. !embed [message] - replies with an embedded message
 
 
 Installation Steps
@@ -22,7 +25,7 @@ Installation Steps
 
 Running the bot.
 -------------------
-1. Open the .bat file to start bot (Windows)
+1. Open the .bat file to start bot.
 
 
 
