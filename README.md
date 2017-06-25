@@ -6,10 +6,10 @@ This is practically a template for a simple bot to use with some features:
 
 Features
 -------------
-!hello - replies with "Hello there, (username)
-!sysinfo - replies with the name of the bot
-!say (message) - replies with whatever you wanted to say 
-!delete (not working currently) - would delete a certain amount of messages if it currently worked
+1. !hello - replies with "Hello there, (username)
+2. !sysinfo - replies with the name of the bot
+3. !say (message) - replies with whatever you wanted to say 
+4. !delete (not working currently) - would delete a certain amount of messages if it currently worked
 
 
 Installation Steps
