@@ -1,3 +1,6 @@
+[ATTENTION!]
+I stopped coding this bot a while back, but I would be happy to update and add more features to anyone's liking
+
 # Discord-Bot
 Source code for a bot I coded in JavaScript.
 
