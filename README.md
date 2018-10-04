@@ -13,9 +13,7 @@ Features
 2. !ping - replies with pong
 3. !8ball [question] - you ask a question and the bot selects a random answer, then it replies with the answer
 4. !noticeme - replies to you 
-5. !removerole [role] - removes a specific role (needs administrator access)
-6. !deleterole - deletes a role
-7. !embed [message] - replies with an embedded message
+5. !embed
 
 
 Installation Steps
